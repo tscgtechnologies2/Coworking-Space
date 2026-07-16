@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coworking Space | Premium Shared Workspaces</title>
+  <meta name="description" content="Discover Coworking Space: A premium shared workspace designed for focus, connection, and growth. Flexible memberships, modern meeting rooms, and an inspiring community.">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Outfit Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="main-header" id="header">
+    <div class="header-container">
+      <a href="#hero" class="logo">
+        <span class="logo-dot"></span>
+        Coworking Space
+      </a>
+      
+      <!-- Hamburger Menu Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#workspaces" class="nav-link">Workspaces</a></li>
+          <li><a href="#amenities" class="nav-link">Amenities</a></li>
+          <li><a href="#memberships" class="nav-link">Memberships</a></li>
+          <li><a href="#events" class="nav-link">Events</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-btn">Join the Space</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-in">
+          <span class="pulse-indicator"></span>
+          Now Open &bull; Premium Desks & Offices Available
+        </div>
+        <h1 class="animate-slide-up">A workspace designed for focus, connection, and growth</h1>
+        <p class="animate-slide-up-delayed">Discover flexible memberships, state-of-the-art meeting spaces, and a vibrant community of professionals. Elevate your workday at Coworking Space.</p>
+        <div class="hero-ctas animate-slide-up-delayed-2">
+          <a href="#contact" class="btn btn-primary">Join the Space</a>
+          <a href="#memberships" class="btn btn-secondary">Explore Memberships</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <a href="#about" aria-label="Scroll down to About section">
+        <span class="mouse-icon">
+          <span class="wheel"></span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="grid grid-2">
+        <div class="about-visual scroll-reveal">
+          <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Beautifully lit premium Coworking Space interior" class="about-img">
+            <div class="floating-stat-card">
+              <span class="stat-num">24/7</span>
+              <span class="stat-lbl">Secure Access for Members</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-content scroll-reveal">
+          <span class="section-subtitle">Our Story</span>
+          <h2 class="section-title">Designed for the future of work</h2>
+          <p class="about-desc">At Coworking Space, we believe that where you work directly impacts how you think, create, and connect. Our mission is to build environment-rich workspaces that fuse premium flexibility with productive layouts.</p>
+          <p class="about-desc">Whether you are a solo entrepreneur starting out, a growing startup scaling operations, or an established company seeking custom layouts, our community provides the professional foundation, premium amenities, and collaborative environment to help you succeed.</p>
+          
+          <div class="about-features">
+            <div class="about-feat-item">
+              <div class="feat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <h3>Premium Environment</h3>
+                <p>Clean, beautifully curated designs engineered to maximize focus and creativity.</p>
+              </div>
+            </div>
+            <div class="about-feat-item">
+              <div class="feat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <h3>Active Community</h3>
+                <p>Collaborate and network with like-minded professionals through targeted events.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Workspace Options Section -->
+  <section class="workspace-section" id="workspaces">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Diverse Options</span>
+        <h2 class="section-title">Find the perfect space for your workflow</h2>
+        <p class="section-desc">From open-plan hot desks to completely secure private offices, find a workspace configuration tailored to your immediate needs and future growth.</p>
+      </div>
+      
+      <div class="grid grid-3">
+        <!-- Hot Desks -->
+        <div class="workspace-card scroll-reveal">
+          <div class="workspace-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?auto=format&fit=crop&w=600&q=80" alt="Flexible hot desk workspace options at Coworking Space" class="workspace-img">
+          </div>
+          <div class="workspace-details">
+            <h3>Hot Desks</h3>
+            <p>Access collaborative hot desk seating in our common areas. Grab a coffee, plug in, and get to work.</p>
+            <span class="workspace-tag">Ideal for Freelancers</span>
+          </div>
+        </div>
+
+        <!-- Dedicated Desks -->
+        <div class="workspace-card scroll-reveal">
+          <div class="workspace-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=600&q=80" alt="Dedicated desk workspace options at Coworking Space" class="workspace-img">
+          </div>
+          <div class="workspace-details">
+            <h3>Dedicated Desks</h3>
+            <p>Your own designated desk setup in a shared office. Complete with ergonomic furniture and a locked locker.</p>
+            <span class="workspace-tag">Ideal for Solo Pros</span>
+          </div>
+        </div>
+
+        <!-- Private Offices -->
+        <div class="workspace-card scroll-reveal">
+          <div class="workspace-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=600&q=80" alt="Private office workspace options at Coworking Space" class="workspace-img">
+          </div>
+          <div class="workspace-details">
+            <h3>Private Offices</h3>
+            <p>Secure, soundproofed glass offices built for teams of 1 to 20+. Fully furnished and scalable.</p>
+            <span class="workspace-tag">Ideal for Growing Teams</span>
+          </div>
+        </div>
+
+        <!-- Meeting Rooms -->
+        <div class="workspace-card scroll-reveal">
+          <div class="workspace-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=600&q=80" alt="Meeting room workspace options at Coworking Space" class="workspace-img">
+          </div>
+          <div class="workspace-details">
+            <h3>Meeting Rooms</h3>
+            <p>A/V equipped, beautifully styled conference rooms for client pitches, presentations, and team workshops.</p>
+            <span class="workspace-tag">By the hour booking</span>
+          </div>
+        </div>
+
+        <!-- Event Space -->
+        <div class="workspace-card scroll-reveal">
+          <div class="workspace-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=600&q=80" alt="Event space workspace options at Coworking Space" class="workspace-img">
+          </div>
+          <div class="workspace-details">
+            <h3>Event Space</h3>
+            <p>Expansive communal areas configured for panel discussions, workshops, presentations, or community mixers.</p>
+            <span class="workspace-tag">Custom staging available</span>
+          </div>
+        </div>
+
+        <!-- Virtual Office Services -->
+        <div class="workspace-card scroll-reveal">
+          <div class="workspace-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="Virtual office services workspace options at Coworking Space" class="workspace-img">
+          </div>
+          <div class="workspace-details">
+            <h3>Virtual Office Services</h3>
+            <p>Establish your professional presence with a business mailing address, mail handling, and lounge access.</p>
+            <span class="workspace-tag">Premium business address</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section class="amenities-section" id="amenities">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Everything You Need</span>
+        <h2 class="section-title">Premium amenities, standard inclusions</h2>
+        <p class="section-desc">We manage the details and physical infrastructure so you can focus entirely on executing your business objectives.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <!-- Amenity 1: High-Speed Internet -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+          </div>
+          <h3>High-Speed Internet</h3>
+          <p>Ultra-fast fiber optic Wi-Fi with secure failovers and backup networks.</p>
+        </div>
+
+        <!-- Amenity 2: Printing -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          </div>
+          <h3>Printing Station</h3>
+          <p>Unlimited high-grade scanning, color printing, and shredding services.</p>
+        </div>
+
+        <!-- Amenity 3: Coffee and Refreshments -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Coffee & Refreshments</h3>
+          <p>Artisanal espresso machines, cold brew on tap, herbal teas, and fresh water.</p>
+        </div>
+
+        <!-- Amenity 4: Lounge Areas -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3>Lounge Areas</h3>
+          <p>Ergonomic sofas and custom armchairs designed for quick breaks or casual alignment.</p>
+        </div>
+
+        <!-- Amenity 5: Phone Booths -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>Phone Booths</h3>
+          <p>Private, acoustic-insulated phone booths for confidential calls and virtual video meetings.</p>
+        </div>
+
+        <!-- Amenity 6: Secure Access -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3>Secure Access</h3>
+          <p>Smart keycard or mobile app system allowing 24/7 keyless entry for members.</p>
+        </div>
+
+        <!-- Amenity 7: Mail Handling -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h3>Mail Handling</h3>
+          <p>Frictionless receipt of business parcels, letters, and package-delivery notifications.</p>
+        </div>
+
+        <!-- Amenity 8: Community Events -->
+        <div class="amenity-card scroll-reveal">
+          <div class="amenity-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <h3>Community Events</h3>
+          <p>Free entry to professional learning sessions, social mixers, and wellness workshops.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-section" id="why-choose">
+    <div class="container">
+      <div class="grid grid-2 align-center">
+        <div class="why-choose-content scroll-reveal">
+          <span class="section-subtitle">The Coworking Difference</span>
+          <h2 class="section-title">Why choose Coworking Space?</h2>
+          <p class="why-choose-desc">We design systems and spaces that remove friction from modern work. From our custom agreements to our premium, distraction-free environment, we prioritize member success.</p>
+          
+          <ul class="why-list">
+            <li>
+              <div class="why-list-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="why-list-text">
+                <strong>Flexible plans:</strong> No long-term commitments required. Upgrade, downgrade, or pause plans with simple monthly notices.
+              </div>
+            </li>
+            <li>
+              <div class="why-list-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="why-list-text">
+                <strong>Professional environment:</strong> Soundproofing, ergonomic Herman Miller seating, and premium layout layouts.
+              </div>
+            </li>
+            <li>
+              <div class="why-list-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="why-list-text">
+                <strong>Networking opportunities:</strong> Broad ecosystem of entrepreneurs, engineers, creatives, and venture funds.
+              </div>
+            </li>
+            <li>
+              <div class="why-list-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="why-list-text">
+                <strong>Central access:</strong> Convenient, transport-linked urban locations near top dining and transit lines.
+              </div>
+            </li>
+            <li>
+              <div class="why-list-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div class="why-list-text">
+                <strong>Supportive team:</strong> Dedicated front-desk community managers present daily to assist with mailing, tech setup, and reception.
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="why-choose-visual scroll-reveal">
+          <div class="image-grid-composite">
+            <div class="composite-img-1">
+              <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=500&q=80" alt="People collaborating in a workshop at Coworking Space">
+            </div>
+            <div class="composite-img-2">
+              <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=500&q=80" alt="Wellness and community event space at Coworking Space">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works-section" id="how-it-works">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Simplified Steps</span>
+        <h2 class="section-title">Your path to a better workday</h2>
+        <p class="section-desc">Joining our community is fast and seamless. Learn how to transition your workspace in five simple steps.</p>
+      </div>
+
+      <div class="timeline-wrapper scroll-reveal">
+        <!-- Step 1 -->
+        <div class="timeline-step">
+          <div class="step-num-bubble">01</div>
+          <div class="step-content">
+            <h3>Tour</h3>
+            <p>Schedule a quick visit online or drop by for a coffee and a look around our offices.</p>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="timeline-step">
+          <div class="step-num-bubble">02</div>
+          <div class="step-content">
+            <h3>Select a plan</h3>
+            <p>Pick a desk, shared space membership, or private layout that fits your workflow.</p>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="timeline-step">
+          <div class="step-num-bubble">03</div>
+          <div class="step-content">
+            <h3>Move in</h3>
+            <p>Get digital keys instantly, claim your workspace, and configure your devices.</p>
+          </div>
+        </div>
+        <!-- Step 4 -->
+        <div class="timeline-step">
+          <div class="step-num-bubble">04</div>
+          <div class="step-content">
+            <h3>Connect</h3>
+            <p>Join the digital community channels, attend member lunches, and meet your neighbors.</p>
+          </div>
+        </div>
+        <!-- Step 5 -->
+        <div class="timeline-step">
+          <div class="step-num-bubble">05</div>
+          <div class="step-content">
+            <h3>Grow</h3>
+            <p>Focus on your core priorities while utilizing resources built to scale your business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Plans Section -->
+  <section class="memberships-section" id="memberships">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Simple Pricing</span>
+        <h2 class="section-title">Flexible options for every scale</h2>
+        <p class="section-desc">Choose a plan that fits your current operational needs, with options to scale up as your organization expands.</p>
+        
+        <!-- Toggle Button -->
+        <div class="pricing-toggle-container">
+          <span class="toggle-label" id="toggle-monthly-label">Monthly</span>
+          <button class="pricing-toggle-btn" id="pricingToggle" aria-label="Toggle annual pricing plan details" aria-pressed="false">
+            <span class="pricing-toggle-slider"></span>
+          </button>
+          <span class="toggle-label" id="toggle-annual-label">Annual <span class="discount-badge">Save ~15%</span></span>
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Plan 1: Flexible Pass -->
+        <div class="pricing-card scroll-reveal" data-tier="flexible">
+          <div class="card-badge">Most Flexible</div>
+          <div class="pricing-card-header">
+            <h3>Flexible Pass</h3>
+            <p>Hot desk access in communal areas, perfect for remote workers and travelers.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly="150" data-annual="125">150</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <div class="pricing-card-body">
+            <ul class="pricing-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Communal hot-desk seating
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Access during business hours (9-6)
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                High-speed fiber Wi-Fi
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Refreshments & coffee bar
+              </li>
+              <li class="disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                24/7 building access
+              </li>
+              <li class="disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                Professional business address
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary-outline btn-block select-plan-btn" data-plan="Flexible Pass">Select Pass</a>
+          </div>
+        </div>
+
+        <!-- Plan 2: Pro Desk -->
+        <div class="pricing-card card-popular scroll-reveal" data-tier="pro">
+          <div class="card-badge">Most Popular</div>
+          <div class="pricing-card-header">
+            <h3>Pro Desk</h3>
+            <p>Your own dedicated desk with locking filing cabinets in an exclusive workspace.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly="350" data-annual="300">350</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <div class="pricing-card-body">
+            <ul class="pricing-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Designated desk + ergonomic chair
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                24/7 secure card key access
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                12 hours/mo meeting room booking
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Professional business address
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Mail receipt & parcel handling
+              </li>
+              <li class="disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                Custom office layout options
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-block select-plan-btn" data-plan="Pro Desk">Select Desk</a>
+          </div>
+        </div>
+
+        <!-- Plan 3: Private Office -->
+        <div class="pricing-card scroll-reveal" data-tier="private">
+          <div class="card-badge">Teams Only</div>
+          <div class="pricing-card-header">
+            <h3>Private Office</h3>
+            <p>Fully enclosed, locking glass office setups for security-focused teams.</p>
+            <div class="price-box">
+              <span class="currency">$</span>
+              <span class="price-amount" data-monthly="750" data-annual="640">750</span>
+              <span class="price-period">/mo</span>
+            </div>
+          </div>
+          <div class="pricing-card-body">
+            <ul class="pricing-features">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Fully lockable sound-proofed space
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                24/7 keycard access for team
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                30 hours/mo meeting room booking
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Custom office layout & brand integration
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Included mail & printing package
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Dedicated IT support & VLAN
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary-outline btn-block select-plan-btn" data-plan="Private Office">Select Office</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Real Experiences</span>
+        <h2 class="section-title">Loved by independent professionals</h2>
+        <p class="section-desc">Read feedback from our members about how our workspaces support their productivity and growth.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card scroll-reveal">
+          <div class="quote-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.192 15.757c0-.754-.025-1.401-.075-1.94s-.164-1.037-.344-1.487c-.18-.451-.475-.89-.885-1.32-.41-.431-.963-.88-1.66-1.348l1.115-1.302c.861.543 1.537 1.115 2.028 1.719.492.602.846 1.253 1.063 1.954.217.702.328 1.488.328 2.36v3.364H7.834v-3.364h3.358zm7.318 0c0-.754-.025-1.401-.075-1.94s-.164-1.037-.344-1.487c-.18-.451-.476-.89-.886-1.32-.411-.431-.964-.88-1.66-1.348l1.115-1.302c.861.543 1.537 1.115 2.029 1.719.491.602.845 1.253 1.062 1.954.217.702.328 1.488.328 2.36v3.364h-4.93v-3.364h3.357z"/></svg>
+          </div>
+          <p class="testimonial-text">"Transitioning to Coworking Space completely changed my remote routine. The distraction-free workspaces, high-speed fiber internet, and complimentary premium coffee keep my productivity levels high. I also appreciate the keyless 24/7 access, allowing me to align my work schedule to global clients."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar-initials">A.D.</div>
+            <div class="author-info">
+              <h4>A.D.</h4>
+              <p>Independent Developer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card scroll-reveal">
+          <div class="quote-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.192 15.757c0-.754-.025-1.401-.075-1.94s-.164-1.037-.344-1.487c-.18-.451-.475-.89-.885-1.32-.41-.431-.963-.88-1.66-1.348l1.115-1.302c.861.543 1.537 1.115 2.028 1.719.492.602.846 1.253 1.063 1.954.217.702.328 1.488.328 2.36v3.364H7.834v-3.364h3.358zm7.318 0c0-.754-.025-1.401-.075-1.94s-.164-1.037-.344-1.487c-.18-.451-.476-.89-.886-1.32-.411-.431-.964-.88-1.66-1.348l1.115-1.302c.861.543 1.537 1.115 2.029 1.719.491.602.845 1.253 1.062 1.954.217.702.328 1.488.328 2.36v3.364h-4.93v-3.364h3.357z"/></svg>
+          </div>
+          <p class="testimonial-text">"As a growing startup team of six, finding lease terms that fit our budget was a major roadblock. Setting up in a Private Office at Coworking Space solved our problem instantly. The booking systems are seamless, and having a mailing address makes our business operations look highly professional."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar-initials text-secondary">M.K.</div>
+            <div class="author-info">
+              <h4>M.K.</h4>
+              <p>Founder & CEO</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card scroll-reveal">
+          <div class="quote-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.192 15.757c0-.754-.025-1.401-.075-1.94s-.164-1.037-.344-1.487c-.18-.451-.475-.89-.885-1.32-.41-.431-.963-.88-1.66-1.348l1.115-1.302c.861.543 1.537 1.115 2.028 1.719.492.602.846 1.253 1.063 1.954.217.702.328 1.488.328 2.36v3.364H7.834v-3.364h3.358zm7.318 0c0-.754-.025-1.401-.075-1.94s-.164-1.037-.344-1.487c-.18-.451-.476-.89-.886-1.32-.411-.431-.964-.88-1.66-1.348l1.115-1.302c.861.543 1.537 1.115 2.029 1.719.491.602.845 1.253 1.062 1.954.217.702.328 1.488.328 2.36v3.364h-4.93v-3.364h3.357z"/></svg>
+          </div>
+          <p class="testimonial-text">"The sense of community here is genuine. The weekly networking lunches and panels have introduced me to collaborators I wouldn't have found anywhere else. The front-desk team is extremely helpful and supports us with mailing needs. This is the absolute benchmark of coworking."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar-initials text-accent">S.L.</div>
+            <div class="author-info">
+              <h4>S.L.</h4>
+              <p>Creative Director</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Got Questions?</span>
+        <h2 class="section-title">Frequently asked questions</h2>
+        <p class="section-desc">Find quick answers to common questions about memberships, guest permissions, booking meeting rooms, and office amenities.</p>
+      </div>
+
+      <div class="faq-accordion-container scroll-reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What memberships do you offer?</span>
+            <span class="faq-toggle-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>We offer a range of flexible packages to fit all working styles: Flexible Pass (hot desking in communal spaces), Pro Desk (your dedicated personal workspace with locked storage), and Private Offices (secure lockable configurations for teams). We also offer Virtual Office packages for digital mail handling.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I book meeting rooms?</span>
+            <span class="faq-toggle-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. All members receive monthly credits to reserve meeting rooms using our web app. If you require extra hours, they can be purchased at member rates. Non-members can also rent our meeting rooms on an hourly basis.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer day passes?</span>
+            <span class="faq-toggle-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Day passes are available for individuals looking to access our open coworking areas and premium refreshments. Passes can be purchased online or at the reception desk during business hours (9:00 AM – 6:00 PM).</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is there community programming?</span>
+            <span class="faq-toggle-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. We hold structured weekly mixers, educational workshops, breakfast panels, and wellness sessions. These events are free for all members and designed to help you network, build relationships, and grow your professional skills.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I bring guests?</span>
+            <span class="faq-toggle-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, members are welcome to host guests for meetings in booked conference rooms. For guest access in shared workspace common areas, day passes or guest registration is required to maintain safety and workspace comfort for everyone.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Are virtual office services available?</span>
+            <span class="faq-toggle-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Our virtual office services include a premium corporate business address, digital parcel notifications, and secure mail forwarding packages. Virtual office members can also book meeting rooms at member rates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section" id="team">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Our Support Staff</span>
+        <h2 class="section-title">Dedicated to your daily success</h2>
+        <p class="section-desc">Our team manages day-to-day operations, mail distribution, and IT coordination so you can experience a frictionless workday.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Team 1 -->
+        <div class="team-card scroll-reveal">
+          <div class="team-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" alt="Community Manager of Coworking Space" class="team-img">
+          </div>
+          <div class="team-details">
+            <h3>Community Manager</h3>
+            <p class="team-role">Daily Support & Events Manager</p>
+            <p class="team-bio">Manages member relations, onboarding schedules, and community events to ensure an inclusive, high-energy work culture.</p>
+          </div>
+        </div>
+
+        <!-- Team 2 -->
+        <div class="team-card scroll-reveal">
+          <div class="team-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80" alt="Operations Lead of Coworking Space" class="team-img">
+          </div>
+          <div class="team-details">
+            <h3>Operations Lead</h3>
+            <p class="team-role">Tech & Infrastructure Director</p>
+            <p class="team-bio">Oversees building logistics, secure server setups, network failovers, access permissions, and facilities engineering.</p>
+          </div>
+        </div>
+
+        <!-- Team 3 -->
+        <div class="team-card scroll-reveal">
+          <div class="team-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80" alt="Membership Coordinator of Coworking Space" class="team-img">
+          </div>
+          <div class="team-details">
+            <h3>Membership Coordinator</h3>
+            <p class="team-role">Sales & Custom Agreements Agent</p>
+            <p class="team-bio">Assists teams with office scaling, custom package expansions, contract adjustments, and mailing accounts setup.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events / Journal Section -->
+  <section class="journal-section" id="events">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-subtitle">Life at Coworking Space</span>
+        <h2 class="section-title">Events & community journal</h2>
+        <p class="section-desc">Stay informed about upcoming learning seminars, wellness programs, and social mixers inside our spaces.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Event Card 1 -->
+        <div class="journal-card scroll-reveal">
+          <div class="journal-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80" alt="Professional networking mixer inside Coworking Space" class="journal-img">
+            <span class="journal-category">Mixer</span>
+          </div>
+          <div class="journal-info">
+            <span class="journal-date">July 22, 2026</span>
+            <h3>Monthly Networking Social</h3>
+            <p>Connect with local startups, freelancers, and small business founders. Enjoy local refreshments, live music, and peer collaboration.</p>
+            <a href="#contact" class="journal-link">Register for Mixer &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="journal-card scroll-reveal">
+          <div class="journal-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=600&q=80" alt="Interactive startup panel discussion inside Coworking Space" class="journal-img">
+            <span class="journal-category">Workshop</span>
+          </div>
+          <div class="journal-info">
+            <span class="journal-date">August 05, 2026</span>
+            <h3>Building Scalable Web Products</h3>
+            <p>A technical seminar led by industry veterans covering optimized frontend architectures, cloud scaling systems, and conversion-focused UX design.</p>
+            <a href="#contact" class="journal-link">Reserve Your Seat &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="journal-card scroll-reveal">
+          <div class="journal-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80" alt="Yoga and mindfulness community event at Coworking Space" class="journal-img">
+            <span class="journal-category">Wellness</span>
+          </div>
+          <div class="journal-info">
+            <span class="journal-date">August 18, 2026</span>
+            <h3>Mindfulness & Productivity Workshop</h3>
+            <p>Learn focus techniques, ergonomic alignment postures, and stress-reduction strategies built to support remote workers.</p>
+            <a href="#contact" class="journal-link">Sign Up Today &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="grid grid-2">
+        <div class="contact-info-panel scroll-reveal">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Schedule your tour or request a plan</h2>
+          <p class="contact-subtext">Have questions or want to see the offices in person? Complete the contact form, and our front-desk community team will reach out within a business hour to arrange details.</p>
+          
+          <div class="contact-bullets">
+            <div class="bullet-item">
+              <div class="bullet-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <p>Immediate phone and email response during operational business hours (9-6).</p>
+            </div>
+            <div class="bullet-item">
+              <div class="bullet-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <p>Response times average under 60 minutes for digital enquiries.</p>
+            </div>
+            <div class="bullet-item">
+              <div class="bullet-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <p>Central, highly-accessible transit-linked metropolitan office locations.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-panel scroll-reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="inputName">Full Name *</label>
+                <input type="text" id="inputName" required placeholder="Full Name">
+                <span class="error-msg" id="nameError">Name is required</span>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Email Address *</label>
+                <input type="email" id="inputEmail" required placeholder="Email Address">
+                <span class="error-msg" id="emailError">Please enter a valid email</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="inputCompany">Company Name</label>
+                <input type="text" id="inputCompany" placeholder="Company Name">
+              </div>
+              <div class="form-group">
+                <label for="inputInterest">Membership Interest *</label>
+                <div class="select-wrapper">
+                  <select id="inputInterest" required>
+                    <option value="" disabled selected>Select Membership Option</option>
+                    <option value="Flexible Pass">Flexible Pass</option>
+                    <option value="Pro Desk">Pro Desk</option>
+                    <option value="Private Office">Private Office</option>
+                    <option value="Meeting Rooms">Meeting Rooms & Event Space</option>
+                    <option value="Virtual Office">Virtual Office Services</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                  </select>
+                </div>
+                <span class="error-msg" id="interestError">Please select an option</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputTeamSize">Team Size *</label>
+              <div class="select-wrapper">
+                <select id="inputTeamSize" required>
+                  <option value="" disabled selected>Select Team Size</option>
+                  <option value="1">Solo Workspace (1 person)</option>
+                  <option value="2-5">Small Team (2 - 5 people)</option>
+                  <option value="6-15">Mid Team (6 - 15 people)</option>
+                  <option value="16+">Large Enterprise (16+ people)</option>
+                </select>
+              </div>
+              <span class="error-msg" id="teamSizeError">Please select team size</span>
+            </div>
+
+            <div class="form-group">
+              <label for="inputMessage">Message *</label>
+              <textarea id="inputMessage" rows="4" required placeholder="Let us know what you need..."></textarea>
+              <span class="error-msg" id="messageError">Message is required</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="submitFormBtn">Submit Request</button>
+
+            <!-- Form Success Message -->
+            <div class="form-success-overlay" id="formSuccessOverlay">
+              <div class="success-content">
+                <div class="success-icon">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <h3>Request Received!</h3>
+                <p>Thank you for reaching out. Our community coordinator will connect with you via email shortly to schedule details.</p>
+                <button type="button" class="btn btn-secondary btn-sm" id="closeSuccessBtn">Close</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">
+            <span class="logo-dot"></span>
+            Coworking Space
+          </a>
+          <p class="footer-about">Providing scalable, premium office environments engineered to help independent creators, growing startups, and remote teams achieve success.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Coworking Space on Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" aria-label="Coworking Space on LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Coworking Space on Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4>Workspaces</h4>
+            <ul>
+              <li><a href="#workspaces">Hot Desks</a></li>
+              <li><a href="#workspaces">Dedicated Desks</a></li>
+              <li><a href="#workspaces">Private Offices</a></li>
+              <li><a href="#workspaces">Meeting Rooms</a></li>
+              <li><a href="#workspaces">Virtual Offices</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#about">Our Story</a></li>
+              <li><a href="#events">Events Calendar</a></li>
+              <li><a href="#faq">Member FAQs</a></li>
+              <li><a href="#contact">Membership Inquiries</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Support Hours</h4>
+            <ul>
+              <li>Reception: Mon - Fri, 9am - 6pm</li>
+              <li>Member Access: 24/7/365</li>
+              <li>Maintenance: On-Call Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Coworking Space. All rights reserved. Fictional website for demonstration purposes.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Link -->
+  <script src="script.js"></script>
+</body>
+</html>
